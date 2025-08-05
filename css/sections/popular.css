@@ -51,3 +51,47 @@
     color: #fff;
     cursor: pointer;
 }
+
+
+.popular-foods__filter-btn img {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+}
+
+.popular-foods__filter-btn.active {
+    background: #fff;
+    color: var(--primary-color);
+}
+
+.popular-foods__filter-btn:hover {
+    background: #fff;
+    color: var(--primary-color);
+}
+
+.popular-foods__button {
+    width: fit-content;
+
+    padding: 20px 30px;
+    margin: 80px auto 0;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    font-family: var(--plus-jakarta-sans);
+    color: #fff;
+
+    border: none;
+    outline: none;
+    background: var(--secondary-color);
+    border-radius: 64px;
+    cursor: pointer;
+}
+
+.popular-foods__button img {
+    width: 14px;
+    height: 14px;
+    object-fit: contain;
+
+    margin-left: 21px;
+}
